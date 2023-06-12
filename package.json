@@ -1,0 +1,21 @@
+{
+  "name": "react_todo_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development node server.js",
+    "start": "json-server --watch db.json",
+    "watch": "json-server db.json --port=8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "json-server": "^0.17.3"
+  }
+}

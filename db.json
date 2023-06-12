@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "email": "user1@gmail.com",
+      "fullName": "Василий",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "email": "user2@gmail.com",
+      "fullName": "Игорь ",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "email": "user3@gmail.com",
+      "fullName": "Павел",
+      "password": "12345",
+      "id": 3
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Сходить за покупками",
+      "description": "Купить хлеб, молоко и сыр",
+      "category": "Домашние",
+      "dateTo": "",
+      "createdAt": "2023-04-11T14:35:05.869Z",
+      "status": "undone",
+      "isActiveTask": true,
+      "authorId": 1,
+      "id": 1
+    },
+    {
+      "task": "Погулять с собакой",
+      "description": "",
+      "category": "Домашние",
+      "dateTo": "",
+      "createdAt": "2023-04-11T14:35:26.797Z",
+      "status": "done",
+      "isActiveTask": true,
+      "authorId": 1,
+      "id": 2
+    },
+    {
+      "task": "Доделать проект",
+      "description": "",
+      "category": "Рабочие",
+      "dateTo": "2023-05-18",
+      "createdAt": "2023-04-11T14:35:45.753Z",
+      "status": "overdue",
+      "isActiveTask": true,
+      "authorId": 1,
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "text": "Все",
+      "authorId": "",
+      "id": 1
+    },
+    {
+      "text": "Рабочие",
+      "authorId": 1,
+      "id": 2
+    },
+    {
+      "text": "Домашние",
+      "authorId": 1,
+      "id": 3
+    }
+  ]
+}
